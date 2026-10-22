@@ -71,4 +71,4 @@ print("All checks passed")
 # Your calculator program goes here:
 num1 = float(input("Enter a valid number: "))
 num2 = float(input("Enter a second valid number: "))
-op = input("Enter an operator (+, -, *, /): ").strip()
+op = (input("Enter an operator (+, -, *, /): ").strip())
