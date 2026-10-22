@@ -69,6 +69,28 @@ print("All checks passed")
 
 
 # Your calculator program goes here:
-num1 = float(input("Enter a valid number: "))
-num2 = float(input("Enter a second valid number: "))
-op = (input("Enter an operator (+, -, *, /): ").strip())
+while True:
+
+    while True:
+        num1 = parse_number(input("Enter a valid number: "))
+        if num1 is not None:
+            break
+        print("That's not a number. Please try again.")
+
+    while True:
+        num2 = parse_number(input("Enter a second valid number: "))
+        if num2 is not None:
+            break
+        print("That's not a number. Please try again.")
+
+    op = input("Enter an operator (+, -, *, /): ").strip()
+
+    try:
+        result = calculate(num1, op, num2)
+        print(f"{num1} {op} {num2} = {result}")
+    except ValueError as e:
+        print(e)
+
+    again = input("Another? (y/n): ").strip().lower()
+    if again != "y":
+        break

@@ -1,10 +1,10 @@
-# Python in 35 sessions
+# Python in 36 sessions
 
 Budget: about 30 minutes a session. Some sessions will take longer, and that's fine.
 
 "Day N" below means the Nth session, not the Nth calendar day. Take a day off whenever you
 like, and if a lesson needs two sittings, take two. Understanding matters more than speed.
-35 sessions is a ceiling, not a target: if we finish sooner, the extra time goes to a
+36 sessions is a ceiling, not a target: if we finish sooner, the extra time goes to a
 bigger final project.
 
 ## How a normal session works
@@ -42,7 +42,7 @@ From your practice files, you could already:
 - write functions with parameters, work with lists and strings
 - write simple classes and a tkinter window with try/except in it
 
-## The 35 sessions
+## The 36 sessions
 
 Legend: L = lesson, C = checkpoint, P = mini-project, R = catch-up and review.
 
@@ -80,13 +80,13 @@ Legend: L = lesson, C = checkpoint, P = mini-project, R = catch-up and review.
 | 30 | L | HTTP and APIs with `requests` | |
 | 31 | L | Command-line scripts with `argparse`; `subprocess` and `shutil` | dry-run first |
 | 32 | C | Checkpoint: Days 29-31 | |
-| 33 | P | Final project: choose it, plan it, start it | |
-| 34 | P | Final project: finish it | |
-| 35 | R | Review: read your own Pizza app with fresh eyes, plan what's next | |
+| 33 | L | SQLite with `sqlite3` | your Pizza app already uses it |
+| 34 | P | Final project: choose it, plan it, start it | can use SQLite |
+| 35 | P | Final project: finish it | |
+| 36 | R | Review: read your own Pizza app with fresh eyes, plan what's next | |
 
 ## Bonus topics (not scheduled)
 
-These didn't fit in 35 sessions. Say the word and I'll slot one in, or use it as a stretch:
+This didn't fit in 36 sessions. Say the word and I'll slot it in, or use it as a stretch:
 
-- SQLite with `sqlite3`
 - Regular expressions, the useful 20%
