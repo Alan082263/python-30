@@ -49,8 +49,8 @@ Legend: L = lesson, C = checkpoint, P = mini-project, R = catch-up and review.
 | Day | Type | Topic | Notes |
 | --- | --- | --- | --- |
 | 1 | L | Functions that return a value | done |
-| 2 | L | Input validation: try/except, while loops | in progress; p3 safe calculator still to do |
-| 3 | L | Strings in depth: methods, slicing, formatting | fixes the uppercase vowel bug in `vowel_counter.py` |
+| 2 | L | Input validation: try/except, while loops | done |
+| 3 | L | Strings in depth: methods, slicing, formatting | two sittings: p1, then p2 and p3 ("Day 3 part 2"); fixes the uppercase vowel bug in `vowel_counter.py` |
 | 4 | C | Checkpoint: Days 1-3 | |
 | 5 | L | Lists in depth: methods, slicing, sorting with a key | |
 | 6 | L | Tuples and sets: picking the right container | |

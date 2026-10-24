@@ -23,15 +23,20 @@
 
 
 def first_and_last(text):
-    pass  # replace this line
+    if text == "":
+        return ""
+    return text[0] + text[-1]
+
 
 
 def is_palindrome(text):
-    pass  # replace this line
+    clean = "".join(text.lower().split())
+    return clean == clean[::-1]
+
 
 
 def clean_name(text):
-    pass  # replace this line
+     return " ".join(text.split()).title()
 
 
 # ---- checks: don't edit this part ----
@@ -54,3 +59,6 @@ print("All checks passed")
 
 # Your program goes here:
 # Ask "Enter your name: ", then print "Hello, Alan Wade!" using clean_name on what they typed.
+
+name = input("Enter your name: ")
+print(f"Hello, {clean_name(name)}!")
