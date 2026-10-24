@@ -12,14 +12,14 @@
 
 
 def shout(text):
-    return text.strip().upper() + "!"
+    return text.strip().upper() + "!"    #SHOUT
 
 
-def last_char(text):
+def last_char(text):     #Last Char
     return text[-1]
 
 
-def contains_at(text):
+def contains_at(text):      #contains_@
     return "@" in text
 
 
