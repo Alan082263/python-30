@@ -12,7 +12,7 @@
 
 
 def shout(text):
-    return text.strip().upper() + "!"    #SHOUT
+    return text.strip().upper() + "!"
 
 
 def last_char(text):     #Last Char
@@ -38,3 +38,6 @@ print("All checks passed")
 # ---- end of checks ----
 
 # When all checks pass, write a comment here (one line each) saying what each bug was.
+#SHOUT
+# #Last Char
+# #contains_@

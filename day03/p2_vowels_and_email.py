@@ -12,13 +12,22 @@
 #   Hint: text.find("@") gives the position, or -1 if it's missing.
 #   Use slicing: email[:1] is the first character, email[at:] is from the @ to the end.
 
+vowels = ["a","e","i","o","u"]
 
 def count_vowels(text):
-    pass  # replace this line
+    count = 0
+    for letter in text.lower():
+        if letter in vowels:
+            count += 1
+    return count
 
 
 def mask_email(email):
-    pass  # replace this line
+    at = email.find("@")
+    if at <= 0:
+        return None
+    return email[:1] + "***" + email[at:]
+
 
 
 # ---- checks: don't edit this part ----
@@ -40,3 +49,13 @@ print("All checks passed")
 # Your program goes here:
 # Ask "Enter an email: ". Print the masked version, or "That doesn't look like an email."
 # if mask_email gave back None. Run it again for each of: alan@example.com, hello, @oops.
+
+email = input("Enter your email: ").strip()
+
+masked = mask_email(email)
+
+
+if masked is None:
+    print("That doesn't look like an email.")
+else:
+    print(masked)
