@@ -36,7 +36,7 @@ def is_palindrome(text):
 
 
 def clean_name(text):
-     return " ".join(text.split()).title()
+    return " ".join(text.split()).title()
 
 
 # ---- checks: don't edit this part ----

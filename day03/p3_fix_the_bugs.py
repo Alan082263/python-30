@@ -12,19 +12,16 @@
 
 
 def shout(text):
-    text.strip()
-    text.upper()
-    return text + "!"
+    return text.strip().upper() + "!"
 
 
 def last_char(text):
-    return text[len(text)]
+    return text[-1]
 
 
 def contains_at(text):
-    if text.find("@"):
-        return True
-    return False
+    return "@" in text
+
 
 
 # ---- checks: don't edit this part ----
