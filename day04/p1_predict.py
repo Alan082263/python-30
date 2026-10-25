@@ -7,14 +7,14 @@
 # Remember: the file has 8 print lines, so it will produce 8 lines of output.
 #
 # MY PREDICTIONS (fill these in):
-#   1:
-#   2:
-#   3:
-#   4:
-#   5:
-#   6:
-#   7:
-#   8:
+#   1:noh
+#   2:big
+#   3: 3.5
+#   4:None
+#   5: 9
+#   6:HI!
+#   7:ell lo
+#   8:-1 2
 #
 # Then run the file and compare. Score one point per line you got exactly right.
 
@@ -52,10 +52,10 @@ def shout(text):
     return text + "!"
 
 
-print(mystery("  PyThon "))                  # 1
-print(check("12"))                           # 2
-print(check("3.5"))                          # 3
-print(check("abc"))                          # 4
+print(mystery("  PyThon "))                  # 1 noh
+print(check("12"))                           # 2 12
+print(check("3.5"))                          # 3 3.5
+print(check("abc"))                          # 4 None
 print(count_up(6))                           # 5
 print(shout("hi"))                           # 6
 print("hello"[1:4], "hello"[-2:])            # 7  (two values: print puts a space between)
