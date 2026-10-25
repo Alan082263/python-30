@@ -51,7 +51,7 @@ Legend: L = lesson, C = checkpoint, P = mini-project, R = catch-up and review.
 | 1 | L | Functions that return a value | done |
 | 2 | L | Input validation: try/except, while loops | done |
 | 3 | L | Strings in depth: methods, slicing, formatting | done; fixed the uppercase vowel bug |
-| 4 | C | Checkpoint: Days 1-3 | in progress |
+| 4 | C | Checkpoint: Days 1-3 | done; revisit the immutability trap (keep the result of string methods) |
 | 5 | L | Lists in depth: methods, slicing, sorting with a key | |
 | 6 | L | Tuples and sets: picking the right container | |
 | 7 | L | Dictionaries | |

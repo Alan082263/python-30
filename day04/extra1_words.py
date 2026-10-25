@@ -53,7 +53,7 @@ def last_word(text):
     if not words:
             raise ValueError("No words.")      # 2. if there are no words, raise ValueError("No words.")
     else:
-        return words[-1]
+            return words[-1]
 
 
 # ---- checks: don't edit this part ----

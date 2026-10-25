@@ -26,7 +26,19 @@
 
 
 def format_name(full_name):
-    pass  # replace this line
+    #   1. split into words
+    name = full_name.split()
+    #2. no words? raise
+    if len(name) == 0:
+        raise ValueError("Name is empty.")
+    #3. one word? return it, capitalized
+    elif len(name) == 1:
+        return name[0].capitalize()
+    #4. otherwise return the last word and first word in the "Last, First" shape
+    else:
+        first = name[0].capitalize()
+        last = name[-1].capitalize()
+        return f"{last}, {first}"
 
 
 # ---- checks: don't edit this part ----

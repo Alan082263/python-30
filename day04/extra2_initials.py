@@ -26,14 +26,20 @@
 
 def initials(full_name):
     # 1. split the name into a list of words
+    name = full_name.split()
+
     # 2. start with an empty string called result
+    result = ""
+
     # 3. for each word in the list:
-    #        add the word's first letter, in capitals, to result
+    for word in name:
+        result += word[0].upper()     #     add the word's first letter, in capitals, to result
+
     # 4. return result
-    pass  # replace this line
+    return result
 
 
-# ---- checks: don't edit this part ----
+    # ---- checks: don't edit this part ----
 assert initials("Alan George Wade") == "AGW", '"Alan George Wade" should give "AGW"'
 assert initials("alan wade") == "AW", 'lowercase names should still give capitals: "AW"'
 assert initials("  june  ") == "J", "extra spaces should be ignored"

@@ -13,9 +13,22 @@
 #
 # The function must return its answer, not print it.
 
-
 def make_username(full_name):
-    pass  # replace this line
+#   1. split into words
+    username = full_name.split()
+
+    #2. no words? raise
+    if len(username) == 0:
+        raise ValueError("Name is empty.")
+    elif len(username) == 1:
+        return username[0].lower()
+    else:
+        return (username[0][0].lower()) + (username[-1].lower())
+
+
+
+
+
 
 
 # ---- checks: don't edit this part ----
