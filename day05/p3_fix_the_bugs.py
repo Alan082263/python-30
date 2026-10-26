@@ -13,21 +13,29 @@
 
 
 def sorted_desc(numbers):
-    numbers = numbers.sort(reverse=True)
-    return numbers
+    # Sort numbers from biggest to smallest
+    return sorted(numbers, reverse=True)
 
 
 def with_item(items, x):
-    result = items
+    # Copy the original list
+    result = items.copy()
+    # Amend the original list to create the list with an "x" at the end
     result.append(x)
+    # Return result
     return result
 
 
 def remove_negatives(numbers):
+    # Start with an empty list
+    result =[]
+    # Check the numbers in the  original list
     for n in numbers:
-        if n < 0:
-            numbers.remove(n)
-    return numbers
+        # Keep if number is positive
+        if n >= 0:
+            result.append(n)
+    # Return the new list without changing the original
+    return result
 
 
 # ---- checks: don't edit this part ----
@@ -45,3 +53,6 @@ print("All checks passed")
 # ---- end of checks ----
 
 # When all checks pass, write one comment line here for each bug, in your own words.
+# Sort numbers in a list from biggest to smallest
+# Amend the original list to create the list with an "x" at the end
+# # Return the new list without changing the original

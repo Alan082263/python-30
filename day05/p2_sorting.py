@@ -24,18 +24,21 @@
 
 def sort_by_length(words):
     # 1. return the words sorted with the right key
-    pass  # replace this line
+    sorted_words = sorted(words, key=len)
+    return sorted_words
 
 
 def sort_names(names):
     # 1. return the names sorted with the right key
-    pass  # replace this line
+    sorted_names = sorted(names, key=str.lower)
+    return sorted_names
 
 
 def top_three(numbers):
     # 1. sort the numbers, biggest first
+    sorted_numbers = sorted(numbers, reverse = True)
     # 2. return the first three of them
-    pass  # replace this line
+    return sorted_numbers[:3]
 
 
 # ---- checks: don't edit this part ----

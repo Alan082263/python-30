@@ -30,9 +30,8 @@ def remove_first_and_last(items):
 def average(numbers):
     # 1. if there are no numbers, raise ValueError("No numbers.")
     if not numbers:
-            raise ValueError("No numbers.")
-
-    # 2. otherwise return the total divided by how many there are
+        raise ValueError("No numbers.")
+# 2. otherwise return the total divided by how many there are
     return sum(numbers) / len(numbers)
 
 
@@ -41,7 +40,7 @@ def without_duplicates(items):
     result = []
     # 2. for each item in items:
     for item in items:
-    #   if it is not in result yet, append it to result
+        #   if it is not in result yet, append it to result
         if item not in result:
             result.append(item)
     # 3. return result
