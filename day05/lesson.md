@@ -9,15 +9,15 @@ Predict each output before reading the answers. Strings first, then lists:
 ```python
 s = "hello"
 s.upper()
-print(s)                    # A
+print(s)                    # A hello
 
 nums = [3, 1, 2]
 nums.sort()
-print(nums)                 # B
+print(nums)                 # B 1,2,3
 
 nums = [3, 1, 2]
 nums = nums.sort()
-print(nums)                 # C
+print(nums)                 # C None
 ```
 
 Answers: **A** prints `hello` (strings are immutable, so the result was thrown away).
