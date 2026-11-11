@@ -55,7 +55,7 @@ Legend: L = lesson, C = checkpoint, P = mini-project, R = catch-up and review.
 | 5 | L | Lists in depth: methods, slicing, sorting with a key | done |
 | 6 | L | Tuples and sets: picking the right container | done |
 | 7 | L | Dictionaries | done |
-| 8 | C | Checkpoint: Days 5-7 | |
+| 8 | C | Checkpoint: Days 5-7 | done: p1 8/8, p2 and p3 passed, about 43 minutes |
 | 9 | P | Mini-project 1: command-line expense tracker | uses Days 1-7; stays in memory for now |
 | 10 | L | Reading and writing text files | `with`, `pathlib` |
 | 11 | L | CSV and JSON files | |
