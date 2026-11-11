@@ -1,0 +1,10 @@
+[project]
+name = "python-30"
+version = "0.1.0"
+description = "Python in 36 sessions: daily lessons and practice problems"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv]
+# Exercises are standalone scripts, not an installable package.
+package = false
